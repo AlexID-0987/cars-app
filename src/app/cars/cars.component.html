@@ -7,41 +7,41 @@
           <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
         </div>
         
-          <form class="row g-3">
+          <form class="row g-3" #addform="ngForm" (ngSubmit)="additem(addform.value)">
             <div class="form-group has-warning">
                 <label for="validationDefault01" class="form-label">Name</label>
-                <input type="text" class="form-control" id="exampleFormControlInput1" 
-                placeholder="Name" required>
+                <input type="text" class="form-control" name="name" id="validationDefault01"
+                placeholder="Name" ngModel required>
               </div>
               <div class="mb-3 has-warning">
                 <label for="validationDefault02" class="form-label">Lastname</label>
-                <input type="text" class="form-control" id="exampleFormControlInput1" 
-                placeholder="Lastname" required>
+                <input type="text" class="form-control" name="last" 
+                placeholder="Lastname" ngModel required>
               </div>
               <div class="mb-3">
                 <label for="validationDefault03" class="form-label">Surename</label>
-                <input type="text" class="form-control" id="exampleFormControlInput1" 
-                placeholder="Surename" required>
+                <input type="text" class="form-control" name="sur" 
+                placeholder="Surename" ngModel required>
               </div>
               <div class="mb-3">
                 <label for="validationDefault04" class="form-label">Car</label>
-                <input type="text" class="form-control" id="exampleFormControlInput1" 
-                placeholder="Cars" required>
+                <input type="text" class="form-control" name="car" 
+                placeholder="Cars" ngModel required>
               </div>
               <div class="mb-3">
-                <label for="exampleFormControlInput1" class="form-label">Number</label>
-                <input type="text" class="form-control" id="exampleFormControlInput1" 
-                placeholder="Number" required>
+                <label for="exampleFormControlInput1" class="form-label">Registration Number</label>
+                <input type="text" class="form-control text-uppercase" name="ragistr" 
+                placeholder="Number" ngModel required>
               </div>
               <div class="mb-3">
                 <label for="exampleFormControlInput1" class="form-label">Model</label>
-                <input type="text" class="form-control" id="exampleFormControlInput1" 
-                placeholder="Model" required>
+                <input type="text" class="form-control" name="model" 
+                placeholder="Model" ngModel required>
               </div>
               <div class="mb-3">
                 <label for="exampleFormControlInput1" class="form-label">Year</label>
-                <input type="number" class="form-control" id="year" 
-                placeholder="Year" max="2022" min="1990" required>
+                <input type="number" class="form-control" name="year" id="ye"
+                placeholder="Year" max="2022" min="1990" ngModel required>
               </div>
               <button type="submit" class="btn btn-primary">Add</button>
             </form>
@@ -51,3 +51,5 @@
       </div>
     </div>
   </div>
+
+  
