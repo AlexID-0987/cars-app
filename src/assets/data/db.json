@@ -1,0 +1,28 @@
+{
+    "posts": [
+      { 
+        "id": 1, 
+        "name": "Joann", 
+        "lastname": "Joann",
+        "surname": "Billeg",
+        "car":"Fiat",
+        "number":"AA1234RE",
+        "model":"234r",
+        "year":1992
+     },
+     { 
+        "id": 2, 
+        "name": "Heans", 
+        "lastname": "Joann",
+        "surname": "Trudo",
+        "car":"Seat",
+        "number":"AT789IU",
+        "model":"24r",
+        "year":1999
+     }
+    ],
+    "comments": [
+      { "id": 1, "body": "some comment", "postId": 1 }
+    ],
+    "profile": { "name": "typicode" }
+  }
