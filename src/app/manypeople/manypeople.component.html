@@ -8,34 +8,39 @@
       </div>
       <div *ngIf="visib">
         <h6>Pole Update</h6>
-          <span>
+        <div class="upd">
+          <div>
           <label>Name</label>
           <input type="text" [(ngModel)]="NAME">
-          </span>
-          <span>
+          </div>
+          <div>
             <label>Lastname</label>
             <input type="text" [(ngModel)]="LAST">
-          </span>
-          <span>
+          </div>
+          <div>
+          <div>
             <label>Surname</label>
             <input type="text" [(ngModel)]="SUR">
-          </span>
-          <span>
+          </div>
+        </div>
+          <div>
             <label>Car</label>
             <input type="text" [(ngModel)]="CAR">
-          </span>
-          <span>
+          </div>
+          <div>
             <label>Number</label>
             <input type="text" [(ngModel)]="NUMBER">
-          </span>
-          <span>
+          </div>
+          <div>
             <label>Model</label>
             <input type="text" [(ngModel)]="MOD">
-          </span>
-          <span>
+          </div>
+          <div>
             <label>Year</label>
             <input type="number" [(ngModel)]="YEAR">
-          </span>
+          </div>
+      
+        </div>
       </div>
       <div class="modal-body">
         <table class="table table-dark table-hover">
@@ -70,7 +75,7 @@
                   </div>
                   </td>
                   <td>
-                    <div>
+                    <div class="chec">
                       <input class="form-check-input mt-0" type="checkbox" value="" aria-label="Checkbox for following text input" (click)="chancevis()">
                     </div>
                   </td>
@@ -87,8 +92,6 @@
           </div>
       <div class="modal-footer">
         <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
-        <button type="button" class="btn btn-primary">Save changes</button>
-        
       </div>
     </div>
   </div>

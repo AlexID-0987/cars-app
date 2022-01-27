@@ -1,4 +1,4 @@
-<p>cars works!</p>
+
 <div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
     <div class="modal-dialog">
       <div class="modal-content">
@@ -11,7 +11,7 @@
             <div class="form-group has-warning">
                 <label for="validationDefault01" class="form-label">Name</label>
                 <input type="text" class="form-control" name="name" id="validationDefault01"
-                placeholder="Name" ngModel required>
+                placeholder="Name" ngModel required #name="ngModel">
               </div>
               <div class="mb-3 has-warning">
                 <label for="validationDefault02" class="form-label">Lastname</label>
@@ -30,7 +30,7 @@
               </div>
               <div class="mb-3">
                 <label for="exampleFormControlInput1" class="form-label">Registration Number</label>
-                <input type="text" class="form-control text-uppercase" name="ragistr" 
+                <input type="text" class="form-control text-uppercase" name="registr" 
                 placeholder="Number" ngModel required>
               </div>
               <div class="mb-3">
@@ -43,11 +43,9 @@
                 <input type="number" class="form-control" name="year" id="ye"
                 placeholder="Year" max="2022" min="1990" ngModel required>
               </div>
-              <button type="submit" class="btn btn-primary">Add</button>
+              <button type="submit" class="btn btn-primary" data-bs-dismiss="modal">Add</button>
             </form>
-         <div class="modal-footer">
-          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
-        </div>
+         
       </div>
     </div>
   </div>

@@ -21,7 +21,8 @@ import { ManypeopleComponent } from './manypeople/manypeople.component';
     BrowserModule,
     AppRoutingModule,
     HttpClientModule,
-    FormsModule
+    FormsModule,
+    
     
   ],
   providers: [],
