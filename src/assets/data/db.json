@@ -11,63 +11,34 @@
       "year": 1992
     },
     {
-      "id": 2,
-      "name": "Heans",
-      "lastname": "Joann",
+      "name": "Frenc",
+      "lastname": "Fric",
+      "surname": "Dely",
+      "car": "Chevrolet",
+      "number": "qq23er",
+      "model": "Acnive",
+      "year": 2020,
+      "id": 2
+    },
+    {
+      "name": "alex",
+      "lastname": "Keis",
       "surname": "Trudo",
       "car": "Seat",
-      "number": "AT789IU",
-      "model": "24r",
-      "year": 1999
-    },
-    {
-      "id": 3,
-      "name": " wert",
-      "lastname": " fifo",
-      "surname": " Tramp",
-      "car": " Lada",
-      "number": " 45terw",
-      "model": " erts345",
-      "year": 1236
-    },
-    {
-      "id": 5,
-      "name": " alex",
-      "lastname": " ret",
-      "surname": " tyrue",
-      "car": " Honda",
-      "number": " WW23",
-      "model": " Civic",
-      "year": 1234
-    },
-    {
-      "name": "Qvery",
-      "lastname": "Etrow",
-      "surname": "Grasu",
-      "car": "Reno",
-      "number": "22ww4rt",
-      "model": "45",
-      "year": 1789,
-      "id": 7
-    },
-    {
-      "id": 10,
-      "name": " ert",
-      "lastname": " rret",
-      "surname": " tyyr",
-      "car": " Seat",
-      "model": " y78",
-      "year": 2020
+      "number": "WW4367ii",
+      "model": "Sorento",
+      "year": 1234,
+      "id": 3
     },
     {
       "name": "kyiv",
-      "lastname": "Keis",
-      "surname": "Pele",
+      "lastname": "Ivanovish",
+      "surname": "Trudo",
       "car": "Ford",
-      "number": "22ww4rt",
-      "model": "Sorento",
-      "year": 2020,
-      "id": 12
+      "number": "WW4367ii",
+      "model": "t4352",
+      "year": 1990,
+      "id": 4
     }
   ],
   "comments": [

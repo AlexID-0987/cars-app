@@ -39,6 +39,10 @@
             <label>Year</label>
             <input type="number" [(ngModel)]="YEAR">
           </div>
+          <div>
+            <label>Quantity</label>
+            <input type="number" [(ngModel)]="QAN">
+          </div>
       
         </div>
       </div>
@@ -54,6 +58,7 @@
                   <th>Registration Num</th>
                   <th>Model</th>
                   <th>Year</th>
+                  <th>Quantity</th>
                   <th>Delete</th>
                   <th>Active Update</th>
                   <th>Update</th>
@@ -69,6 +74,7 @@
                   <td>{{response.number}}</td>
                   <td>{{response.model}}</td>
                   <td>{{response.year}}</td>
+                  <td>{{response.quantity}}</td>
                   <td>
                   <div>
                     <button type="button" class="btn btn-danger" (click)="delete(response.id)">Delete</button>
@@ -96,4 +102,4 @@
     </div>
   </div>
 </div>
-
+<!--Конечно, дизайн можно улучшать. Для возможности добавления неоходимо активировать чекбокс -->

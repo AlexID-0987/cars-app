@@ -14,6 +14,6 @@ quant:Quantity[]=[]
   addpeople(data:any){
     this.http.post<Quantity[]>(this.url,{name:data.name,lastname:data.last,surname:data.sur,
     car:data.car,number:data.registr,model:data.model,
-  year:data.year}).subscribe((a)=>(console.warn(this.quant)))
+  year:data.year,quantity:data.qua}).subscribe((a)=>(console.warn(this.quant)))
   }
 }

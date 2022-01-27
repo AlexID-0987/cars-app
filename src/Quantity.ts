@@ -6,6 +6,7 @@ export interface Quantity{
   car:String,
   number:String,
   model:String,
-  year:Number
+  year:Number,
+  quantity:Number
 
 }

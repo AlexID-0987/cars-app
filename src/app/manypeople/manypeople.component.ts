@@ -17,6 +17,7 @@ export class ManypeopleComponent implements OnInit {
   NUMBER:String=" ";
   MOD:String=" ";
   YEAR:String=" ";
+  QAN:String=" "
   visib:boolean=false;
   constructor(private ser:ALLService) { }
 
@@ -36,8 +37,9 @@ export class ManypeopleComponent implements OnInit {
    let car=this.CAR;
    let num=this.NUMBER;
    let mod=this.MOD;
-   let year=this.YEAR
-   const obj={id:item,name:na,lastname:la,surname:sur,car:car,number:num,model:mod,year:year}
+   let year=this.YEAR;
+   let qua=this.QAN;
+   const obj={id:item,name:na,lastname:la,surname:sur,car:car,number:num,model:mod,year:year,quantity:qua}
    this.ser.updatecomp(item,obj)
  }
  chancevis(){
