@@ -1,18 +1,96 @@
 
 <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-    <div class="modal-dialog">
-      <div class="modal-content">
-        <div class="modal-header">
-          <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
-          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-        </div>
-        <div class="modal-body">
-          ...
-        </div>
-        <div class="modal-footer">
-          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
-          <button type="button" class="btn btn-primary">Save changes</button>
-        </div>
+  <div class="modal-dialog modal-dialog modal-xl modal-dialog-scrollable">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel">All Peoples</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div *ngIf="visib">
+        <h6>Pole Update</h6>
+          <span>
+          <label>Name</label>
+          <input type="text" [(ngModel)]="NAME">
+          </span>
+          <span>
+            <label>Lastname</label>
+            <input type="text" [(ngModel)]="LAST">
+          </span>
+          <span>
+            <label>Surname</label>
+            <input type="text" [(ngModel)]="SUR">
+          </span>
+          <span>
+            <label>Car</label>
+            <input type="text" [(ngModel)]="CAR">
+          </span>
+          <span>
+            <label>Number</label>
+            <input type="text" [(ngModel)]="NUMBER">
+          </span>
+          <span>
+            <label>Model</label>
+            <input type="text" [(ngModel)]="MOD">
+          </span>
+          <span>
+            <label>Year</label>
+            <input type="number" [(ngModel)]="YEAR">
+          </span>
+      </div>
+      <div class="modal-body">
+        <table class="table table-dark table-hover">
+          <thead>
+              <tr>
+                  <th>Id</th>
+                  <th>Name</th>
+                  <th>Lastname</th>
+                  <th>Surname</th>
+                  <th>Car</th>
+                  <th>Registration Num</th>
+                  <th>Model</th>
+                  <th>Year</th>
+                  <th>Delete</th>
+                  <th>Active Update</th>
+                  <th>Update</th>
+              </tr>
+          </thead>
+          <tbody>
+              <tr *ngFor="let response of al">
+                  <td>{{response.id}}</td>
+                  <td>{{response.name}}</td>
+                  <td>{{response.lastname}}</td>
+                  <td>{{response.surname}}</td>
+                  <td>{{response.car}}</td>
+                  <td>{{response.number}}</td>
+                  <td>{{response.model}}</td>
+                  <td>{{response.year}}</td>
+                  <td>
+                  <div>
+                    <button type="button" class="btn btn-danger" (click)="delete(response.id)">Delete</button>
+                  </div>
+                  </td>
+                  <td>
+                    <div>
+                      <input class="form-check-input mt-0" type="checkbox" value="" aria-label="Checkbox for following text input" (click)="chancevis()">
+                    </div>
+                  </td>
+                  <td>
+                    <div>
+                      <button type="button" class="btn btn-warning"(click)="update(response.id)">Update</button>
+                    </div>
+                  </td>
+                  
+              </tr>
+              
+          </tbody>
+          </table>
+          </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+        <button type="button" class="btn btn-primary">Save changes</button>
+        
       </div>
     </div>
   </div>
+</div>
+

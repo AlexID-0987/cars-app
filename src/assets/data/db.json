@@ -21,139 +21,24 @@
       "year": 1999
     },
     {
-      "name": "alex",
-      "lastname": "Dominov",
-      "surname": "wer",
-      "car": "fiat",
-      "model": "54",
-      "year": 1990,
-      "id": 3
+      "id": 3,
+      "name": " wert",
+      "lastname": " fifo",
+      "surname": " Tramp",
+      "car": " Lada",
+      "number": " 45terw",
+      "model": " erts345",
+      "year": 1236
     },
     {
-      "name": "alex",
-      "lastname": "Dominov",
-      "surname": "wer",
-      "car": "fiat",
-      "model": "tr456",
-      "year": 2020,
-      "id": 4
-    },
-    {
-      "name": "Ivan",
-      "lastname": "Ivanovish",
-      "surname": "Pele",
-      "car": "Kia",
-      "model": "Sorento",
-      "year": 1995,
-      "id": 5
-    },
-    {
-      "name": "Helga",
-      "lastname": "Keis",
-      "surname": "Trudo",
-      "car": "Tesla",
-      "model": "t4352",
-      "year": "",
-      "id": 6
-    },
-    {
-      "name": "alex",
-      "lastname": "",
-      "surname": "",
-      "car": "",
-      "model": "",
-      "year": "",
-      "id": 7
-    },
-    {
-      "name": "alex",
-      "lastname": "",
-      "surname": "",
-      "car": "",
-      "model": "",
-      "year": "",
-      "id": 8
-    },
-    {
-      "name": "alex",
-      "lastname": "",
-      "surname": "",
-      "car": "",
-      "model": "",
-      "year": "",
-      "id": 9
-    },
-    {
-      "name": "alex",
-      "lastname": "Keis",
-      "surname": "",
-      "car": "",
-      "model": "54",
-      "year": "",
-      "id": 10
-    },
-    {
-      "name": "alex",
-      "lastname": "Keis",
-      "surname": "",
-      "car": "",
-      "model": "54",
-      "year": "",
-      "id": 11
-    },
-    {
-      "name": "alex",
-      "lastname": "Keis",
-      "surname": "wer",
-      "car": "Kia122",
-      "model": "54",
-      "year": 1222,
-      "id": 12
-    },
-    {
-      "name": "alex",
-      "lastname": "Keis",
-      "surname": "wer",
-      "car": "Kia122",
-      "model": "54",
-      "year": 1222,
-      "id": 13
-    },
-    {
-      "name": "alex",
-      "lastname": "Keis",
-      "surname": "wer",
-      "car": "Kia122",
-      "model": "54",
-      "year": 1222,
-      "id": 14
-    },
-    {
-      "name": "kyiv",
-      "lastname": "Ivanovish",
-      "surname": "Pele",
-      "car": "",
-      "model": "",
-      "year": "",
-      "id": 15
-    },
-    {
-      "name": "alex",
-      "lastname": "Dominov",
-      "surname": "Pele",
-      "car": "Kia",
-      "model": "Sorento",
-      "year": 1234,
-      "id": 16
-    },
-    {
-      "name": "",
-      "lastname": "",
-      "surname": "",
-      "car": "",
-      "model": "",
-      "year": "",
-      "id": 17
+      "id": 5,
+      "name": " helga",
+      "lastname": " Sawert",
+      "surname": " Hertds",
+      "car": " Tesla",
+      "number": " we2345",
+      "model": " Rew567",
+      "year": 2345
     }
   ],
   "comments": [
