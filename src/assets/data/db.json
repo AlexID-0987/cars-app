@@ -21,16 +21,6 @@
       "id": 2
     },
     {
-      "name": "alex",
-      "lastname": "Keis",
-      "surname": "Trudo",
-      "car": "Seat",
-      "number": "WW4367ii",
-      "model": "Sorento",
-      "year": 1234,
-      "id": 3
-    },
-    {
       "name": "kyiv",
       "lastname": "Ivanovish",
       "surname": "Trudo",
@@ -39,6 +29,16 @@
       "model": "t4352",
       "year": 1990,
       "id": 4
+    },
+    {
+      "name": "Frenc",
+      "lastname": "Joar",
+      "surname": "Detrih",
+      "car": "Seat",
+      "number": "ss3467ut",
+      "model": "e4",
+      "year": 2021,
+      "id": 5
     }
   ],
   "comments": [
